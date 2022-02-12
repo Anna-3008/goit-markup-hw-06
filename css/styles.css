@@ -636,6 +636,8 @@ body {
   margin-bottom: 9px;
 }
 
+/* Social */
+
 .social {
   font-weight: bold;
   font-size: 14px;
@@ -677,6 +679,82 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
+}
+
+.footer-element-social {
+  margin-right: 93px;
+}
+
+/* Subscription */
+
+.footer-subsciption {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.subscription-element {
+  position: relative;
+}
+
+.form-subscription {
+  margin: 0 auto;
+}
+
+.email-form input {
+  width: 358px;
+  padding: 15px 16px;
+  background: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.email-form input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--contact-text-color);
+}
+
+.button-subscription {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 200px;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+
+.icon-subscription {
+  margin-left: 10px;
 }
 
 /* Modal */
