@@ -939,6 +939,10 @@ body {
   fill: var(--accent-color);
 }
 
+.checkbox input:focus + .checkbox-icon {
+  border-color: var(--accent-color);
+}
+
 .checkbox label {
   display: block;
 }
